@@ -1,0 +1,11 @@
+name: nuxtjs
+description: App Description
+ignoreFiles: .git .nuxt node_modules
+modules:
+  - name: template
+    language: nodejs16.x
+    web: nuxtjs
+    description: Module description
+    functions:
+      - name: entry
+        description: the entry point for the function
